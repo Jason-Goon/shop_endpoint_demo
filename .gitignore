@@ -1,0 +1,4 @@
+girthiest_package
+target/
+.env
+Cargo.lock

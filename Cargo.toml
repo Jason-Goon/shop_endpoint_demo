@@ -1,0 +1,13 @@
+[package]
+name = "shop_backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+sqlx = { version = "0.6", features = ["runtime-tokio-native-tls", "sqlite", "macros"] }
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"
+actix-cors = "0.6"
+
